@@ -1,59 +1,54 @@
 # python
 
- * What is Data in Python?
-   
-    Data means information that we store and use in a program.
+ * What is Python:
+   -> Data means information that we store and use in a program.
+  * Why Use Python?
+   -> Easy to learn and read
+   -> Large community support
+   -> Used in web development, data science, AI, automation, and more
+*Data Types in Python:
+ -> Data types define the type of value a variable holds.
 
-Examples:
-10 → Number
+    Data Type	       Description    	         Example
+    int               Integer numbers           10, -5
+    float	           Decimal numbers	       3.14, 2.0
+    str	           Text / characters	        "Hello"
+    bool	            True or False	          True, False
+    list	      Ordered, mutable collection	  [1, 2, 3]
+   tuple	      Ordered, immutable collection	  (1, 2, 3)
+   set	       Unordered, unique elements	  {1, 2, 3}
+   dict	        Key-value pairs	              {"name": "Ram"}
+Example:
+x = 10          # int
+y = 3.5         # float
+name = "nayini" # string 
 
-"Hello" → Text
+* What are Variables:
 
-True → Boolean value
-
-* What are Variables?
-  
-   A variable is a name used to store data.
-
+-> A variable is used to store data in memory.
+-> Python does not require declaring the variable type explicitly.
 Example:
 a = 10
 name = "Python"
 a stores 10
 
-name stores "Python"
+* Rules for variable names:
+-> Must start with a letter or _
+-> Cannot start with a number
+-> Case-sensitive (age ≠ Age)
+-> No spaces allowed
 
-👉 Python automatically decides the data type.
-
-* Data Types in Python
-
-Data types tell Python what kind of data is stored.
-
-Common Data Types:
-Data Type
-int (Integer)	10, -5
-float	3.14, 2.5
-str (String)	"hello"
-bool	True, False
-list	[1, 2, 3]
-tuple	(1, 2, 3)
-set	{1, 2, 3}
-dict	{"a":1, "b":2}
-Check data type:
-x = 5
-print(type(x))
-* Type Conversion (Type Casting)
-  
-   Type conversion means changing one data type to another.
+* Type Conversion (Type Casting):
+   -> Type conversion means changing one data type to another.
 
 Example:
 a = "10"
 b = int(a)   # string to integer
-print(b)
-Common conversions:
-int("5")      # string → int
-float(10)     # int → float
-str(100)      # int → string
-bool(1)       # int → bool
+print(b)     #10
+* Common conversions:
+-> int("5")      # int → float  int → string 
+-> float(10)     # float → int float → string
+-> str(100)      # string → int string → float
 
 * What are Functions?
   
