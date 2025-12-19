@@ -6,7 +6,7 @@
    -> Easy to learn and read
    -> Large community support
    -> Used in web development, data science, AI, automation, and more
-*Data Types in Python:
+* Data Types in Python:
  -> Data types define the type of value a variable holds.
 
     Data Type	       Description    	         Example
