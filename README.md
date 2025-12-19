@@ -50,12 +50,55 @@ print(b)     #10
 -> float(10)     # float → int float → string
 -> str(100)      # string → int string → float
 
+* Operators in Python
+-> Arithmetic Operators
+Operator	Description	Example
++	       Addition	10 + 5
+-	     Subtraction	10 - 5
+*	   Multiplication	10 * 5
+/	      Division 	10 / 5
+%	       Modulus	   10 % 3
+**	       Power	   2 ** 3
+//	  Floor division	10 // 3
+->  Comparison Operators
+Operator	 Description
+==	       Equal to
+!=	       Not equal
+>	      Greater than
+<	       Less than
+>=	     Greater or equal
+<=	      Less or equal
+-> Logical Operators
+Operator	  Description
+and	    True if both are true
+or     	 True if one is true
+not	    Reverses result
+-> Assignment Operators
+x = 10
+x += 5
+x -= 2
+
+-> Membership Operators
+x = [1, 2, 3]
+print(2 in x)
+print(5 not in x)
+
+->  Identity Operators
+a = 10
+b = 10
+print(a is b)
+print(a is not b)
+
 * What are Functions?
   
   A function is a block of code that performs a specific task.
   functions are 2 types.they are
   1)Built in functions
-  2)user defined functions 
+  2)user defined functions
+  *Function syntax:
+def function_name(parameters):
+    # code
+    return value
 
 Built-in Functions:
 
@@ -70,5 +113,3 @@ def add(a, b):
     return a + b
 
 print(add(3, 5))
-
-User-defined functions
