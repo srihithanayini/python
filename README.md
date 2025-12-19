@@ -1,11 +1,5 @@
 # python
 
-You said:
-what is python  data variables type conversions functions 
-ChatGPT said:
-Sure, Bestie 😊
-Here’s a clear and simple explanation of Python – Data, Variables, Data Types, Type Conversion, and Functions 👇
-
 1️⃣ What is Data in Python?
 Data means information that we store and use in a program.
 
