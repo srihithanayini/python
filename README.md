@@ -277,22 +277,15 @@ if True:
 
 * What are Functions?
   
-  A function is a block of code that performs a specific task.
-  functions are 2 types.they are
-  1)Built in functions
-  2)user defined functions
+-> A function is a reusable block of code that performs a specific task.
+-> A function is a block of code that performs a specific task.
+-> Functions improve code reusability, readability, and maintainability.
+
   *Function syntax:
 def function_name(parameters):
-    # code
-    return value
-Functions in Python
-
-A function is a reusable block of code that performs a specific task.
-Functions improve code reusability, readability, and maintainability.
-
-🔹 Built-in Functions
-
-Python provides many built-in functions.
+  
+* Built-in Functions
+-> Python provides many built-in functions.
 
 Examples:
 
