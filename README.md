@@ -211,6 +211,70 @@ len()	       Number of pairs
 print(student.get("name"))
 student.update({"age": 21})
 
+*Loops
+
+-> Loops are used to repeat a block of code multiple times, reducing repetition and improving efficiency.
+* for Loop
+-> The for loop is used to iterate over a sequence like a list, tuple, string, or range.
+
+   for i in range(1, 6):
+       print(i)
+
+-> Common use cases:
+-> Iterating through lists
+-> Running code a fixed number of times
+
+* while Loop
+-> The while loop runs as long as a condition is true.
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+-> Common use cases:
+-> When the number of iterations is not known in advance
+
+* Conditional & Control Statements:
+  
+* Conditional Statements
+-> Conditional statements are used to make decisions based on conditions.
+->They execute different blocks of code depending on whether a condition is True or False.
+
+-> Types:
+   if
+   elif 
+   if-else
+
+age = 18
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+    
+* Control Statements
+
+-> Control statements are used to control the flow of execution in a program.
+-> They decide how and when loops or statements execute.
+
+-> Types of Control Statements:
+   break – exits the loop
+   continue – skips the current iteration
+   pass – does nothing (placeholder)
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+
+if True:
+    pass    
+
 * What are Functions?
   
   A function is a block of code that performs a specific task.
@@ -221,17 +285,45 @@ student.update({"age": 21})
 def function_name(parameters):
     # code
     return value
+Functions in Python
 
-Built-in Functions:
+A function is a reusable block of code that performs a specific task.
+Functions improve code reusability, readability, and maintainability.
 
-print("Hello")
-len("Python")
-type(10)
-User-Defined Function:
+🔹 Built-in Functions
 
-You can create your own function using def.
+Python provides many built-in functions.
 
+Examples:
+
+print()
+len()
+type()
+sum()
+max()
+min()
+
+🔹 User-Defined Functions
+
+User-defined functions are created using the def keyword.
+
+Syntax
+def function_name(parameters):
+    return value
+
+📌 Types of User-Defined Functions
+1️⃣ No Arguments, No Return
+def greet():
+    print("Hello Python")
+
+2️⃣ Arguments, No Return
 def add(a, b):
-    return a + b
+    print(a + b)
 
-print(add(3, 5))
+3️⃣ No Arguments, With Return
+def get_number():
+    return 10
+
+4️⃣ Arguments, With Return
+def square(n):
+    return n * n
