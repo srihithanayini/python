@@ -1,8 +1,10 @@
 # python
 
  * What is Python:
+   -> Python is a high-level, interpreted, and general-purpose programming language known for its simple syntax and readability.
+   -> It is widely used in Web Development, Data Science, Artificial Intelligence, Automation, and Software Development.
    -> Data means information that we store and use in a program.
-  * Why Use Python?
+  * Why Use Python:
    -> Easy to learn and read
    -> Large community support
    -> Used in web development, data science, AI, automation, and more
@@ -88,6 +90,126 @@ a = 10
 b = 10
 print(a is b)
 print(a is not b)
+
+* Print Statement
+ -> Used to display output.
+        print("Hello World")
+        print("Sum:", 10 + 20)
+
+*Libraries & Modules
+
+Libraries provide reusable code.
+
+import math
+print(math.sqrt(16))
+
+import random
+print(random.randint(1, 10))
+
+Common Libraries:
+-> math
+-> random
+-> datetime
+-> os
+-> sys
+
+*Built-in Functions
+-> print()
+-> len()
+-> type()
+-> sum()
+-> max()
+-> min()
+-> range()
+
+* String (str):
+  
+-> A string is a sequence of characters enclosed in single or double quotes.
+-> Strings are immutable (cannot be changed).
+
+name = "Python"
+
+* Common String Functions
+Function	    Description
+len()	     Length of string
+upper()	 Convert to uppercase
+lower()	 Convert to lowercase
+strip()	   Remove spaces
+replace()	Replace text
+split()	  Split string
+
+text = "hello world"
+print(text.upper())
+print(text.split())
+
+* List (list)
+
+-> A list is an ordered collection of items.
+-> Lists are mutable (changeable).
+
+nums = [1, 2, 3, 4]
+*Common List Functions
+Function	  Description
+append()	  Add element
+insert()	  Insert at position
+remove()	   Remove element
+pop()	    Remove last item
+sort()	   Sort list
+len()	    Length of list
+
+nums.append(5)
+nums.sort()
+
+* Tuple (tuple)
+  
+-> A tuple is an ordered collection of items.
+-> Tuples are immutable.
+
+points = (10, 20, 30)
+
+* Common Tuple Functions
+Function	  Description
+count()	  Count value
+index()	  Find index
+len()	     Length of tuple
+
+print(points.count(10))
+
+* Set (set)
+
+-> A set is an unordered collection of unique elements.
+-> Sets are mutable but do not allow duplicates.
+
+data = {1, 2, 3}
+
+* Common Set Functions
+Function	         Description
+add()	            Add element
+remove()	         Remove element
+union()	         Combine sets
+intersection()	   Common elements
+len()	             Size of set
+
+data.add(4)
+
+* Dictionary (dict)
+
+-> A dictionary stores data in key–value pairs.
+-> Keys are unique and immutable.
+
+student = {"name": "Ram", "age": 20}
+
+* Common Dictionary Functions
+Function	     Description
+keys()	     Get all keys
+values()	    Get all values
+items()	    Key-value pairs
+get()	       Get value safely
+update()	   Update dictionary
+len()	       Number of pairs
+
+print(student.get("name"))
+student.update({"age": 21})
 
 * What are Functions?
   
